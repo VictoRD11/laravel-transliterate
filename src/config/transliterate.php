@@ -50,10 +50,10 @@ return [
     | the same actions on a result string every time.
     |
     | Since closures can't be serialized during "artisan config:cache" call,
-    | use "\ElForastero\Transliterate\Closure::register"
+    | use "\VictoRD11\Transliterate\Closure::register"
     |
     */
     'transformers' => [
-//        \ElForastero\Transliterate\Transformer::register(\Closure::fromCallable('trim'))
+//        \VictoRD11\Transliterate\Transformer::register(\Closure::fromCallable('trim'))
     ],
 ];

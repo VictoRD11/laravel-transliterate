@@ -1,7 +1,7 @@
 {
   "name": "victord11/transliterate",
   "description": "Transliteration package for laravel 5",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -16,12 +16,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "ElForastero\\Transliterate\\": "src/"
+      "VictoRD11\\Transliterate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ElForastero\\Transliterate\\Tests\\": "tests/"
+      "VictoRD11\\Transliterate\\Tests\\": "tests/"
     }
   },
   "require": {
