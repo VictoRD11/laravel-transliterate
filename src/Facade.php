@@ -1,6 +1,6 @@
 <?php
 
-namespace ElForastero\Transliterate;
+namespace VictoRD11\Transliterate;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 

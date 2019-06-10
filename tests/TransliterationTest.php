@@ -1,9 +1,9 @@
 <?php
 
-namespace ElForastero\Transliterate\Tests;
+namespace VictoRD11\Transliterate\Tests;
 
-use ElForastero\Transliterate\Transliterator;
-use ElForastero\Transliterate\Map;
+use VictoRD11\Transliterate\Transliterator;
+use VictoRD11\Transliterate\Map;
 
 class TransliterationTest extends TestCase
 {

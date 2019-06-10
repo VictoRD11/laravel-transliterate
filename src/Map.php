@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ElForastero\Transliterate;
+namespace VictoRD11\Transliterate;
 
 /**
  * Class Map.

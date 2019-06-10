@@ -1,9 +1,9 @@
 <?php
 
-namespace ElForastero\Transliterate\Tests;
+namespace VictoRD11\Transliterate\Tests;
 
-use ElForastero\Transliterate\Transformer;
-use ElForastero\Transliterate\Transliterator;
+use VictoRD11\Transliterate\Transformer;
+use VictoRD11\Transliterate\Transliterator;
 
 class TransformersTest extends TestCase
 {

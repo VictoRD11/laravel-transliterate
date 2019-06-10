@@ -1,6 +1,6 @@
 <?php
 
-use ElForastero\Transliterate\Map;
+use VictoRD11\Transliterate\Map;
 
 /* @noinspection PhpVoidFunctionResultUsedInspection */
 return [
@@ -56,15 +56,4 @@ return [
     'transformers' => [
 //        \ElForastero\Transliterate\Transformer::register(\Closure::fromCallable('trim'))
     ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Remove accents
-    |--------------------------------------------------------------------------
-    |
-    | Remove accents from letters using ICU rules.
-    | E.g. À, Ä, Â, etc. - all become A.
-    |
-    */
-    'remove_accents' => true,
 ];

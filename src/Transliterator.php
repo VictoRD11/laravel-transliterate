@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ElForastero\Transliterate;
-
-use Transliterator as IntlTransliterator;
+namespace VictoRD11\Transliterate;
 
 /**
  * Feel free to change it.
@@ -71,11 +69,6 @@ class Transliterator
         $map = $this->getMap();
         $transliterated = str_replace(array_keys($map), array_values($map), $text);
 
-        if (true === config('transliterate.remove_accents', false)) {
-            $transliterator = IntlTransliterator::create('Any-Latin; Latin-ASCII');
-            $transliterated = $transliterator->transliterate($transliterated);
-        }
-
         return self::applyTransformers($transliterated);
     }
 
@@ -90,10 +83,6 @@ class Transliterator
     {
         $map = $this->getMap();
         $text = str_replace(array_keys($map), array_values($map), trim($text));
-
-        $transliterator = IntlTransliterator::create('Any-Latin; Latin-ASCII; Lower()');
-
-        $text = $transliterator->transliterate($text);
         $text = str_replace('&', 'and', $text);
 
         return preg_replace(

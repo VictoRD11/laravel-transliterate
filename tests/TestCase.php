@@ -1,8 +1,8 @@
 <?php
 
-namespace ElForastero\Transliterate\Tests;
+namespace VictoRD11\Transliterate\Tests;
 
-use ElForastero\Transliterate\Transformer;
+use VictoRD11\Transliterate\Transformer;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
