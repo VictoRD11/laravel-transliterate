@@ -1,8 +1,8 @@
 ## Transliterate
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
-![GitHub release](https://img.shields.io/github/release/elforastero/transliterate.svg)
-![Packagist](https://img.shields.io/packagist/dt/elforastero/transliterate.svg)
+![GitHub release](https://img.shields.io/github/release/victord11/transliterate.svg)
+![Packagist](https://img.shields.io/packagist/dt/victord11/transliterate.svg)
 
 Небольшой пакет для транслитерации кириллицы с возможностью создания своих собственных карт транслитерации.
 
