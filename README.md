@@ -39,7 +39,7 @@
 
 > ⚠️ Для Laravel v7 используйте ветку v5: `composer require victord11/transliterate "^5.0"`
 
-> ⚠️ Для Laravel v8,v9 используйте ветку v6: `composer require victord11/transliterate "^6.0"`
+> ⚠️ Для Laravel v8,v9,v10,v11 используйте ветку v6: `composer require victord11/transliterate "^6.0"`
 
 Laravel начиная с версии *5.5* не нуждается в дополнительной конфигурации благодаря механизму Package Discovery.
 
