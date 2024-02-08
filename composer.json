@@ -1,7 +1,6 @@
 {
   "name": "victord11/transliterate",
   "description": "Transliteration package for laravel",
-  "version": "6.2.0",
   "type": "library",
   "license": "MIT",
   "authors": [
